@@ -21,7 +21,7 @@ agent any
 
                                          steps {
                                           sh 'echo "login Docker ...."'
-                   	sh 'docker login -u nawresboulila -p 123azerty123***'
+                   	sh 'docker login -u nawresboulila -p 123azerty123**'
                                }  }
 		 stage('Docker push') {
 
